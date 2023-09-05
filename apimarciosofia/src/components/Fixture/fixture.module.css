@@ -1,0 +1,40 @@
+.music-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  /* Estilos para cada card de música */
+  .music-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  /* Estilo de hover para cada card */
+  .music-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Estilos para o título da música */
+  .music-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para o autor e intérprete */
+  .music-card p {
+    font-size: 1rem;
+    margin: 0;
+  }
+  
+  /* Estilos para separar autor e intérprete */
+  .music-card p + p {
+    margin-top: 5px;
+  }
+  
